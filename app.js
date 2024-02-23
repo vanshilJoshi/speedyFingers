@@ -17,7 +17,6 @@ function randomParagraph() {
         typingTest.innerHTML += spanTag;
     });
     typingTest.querySelectorAll("span")[0].classList.add("active");
-    document.addEventListener("keydown", () => inpField.focus());
     typingTest.addEventListener("click", () => inpField.focus());
 }
 
@@ -69,3 +68,37 @@ function initTimer() {
 
 randomParagraph();
 inpField.addEventListener("input", initTyping);
+
+function Send(){
+
+          
+    let name = document.getElementById("Name").value;
+    let email = document.getElementById("Email").value;
+    let contact = document.getElementById("Contact").value;
+    let sub = document.getElementById("subject").value;
+    let mess = document.getElementById("message").value;
+
+    let body = "Name: " + name + "<br/> Email:" + email + "<br/> Contact Number:" + contact + "<br/> Message:" + mess;
+
+     console.log(body);
+
+        Email.send({
+
+            SecureToken : "32635c6f-d448-4088-ab5a-8f5e3b317627",
+            To : "vanshiljoshi712@gmail.com",
+            From : "vanshiljoshi712@gmail.com",
+            Subject : sub,
+            Body : body
+        }).then(
+               message =>{
+                   if(message=='OK'){
+
+                       swal("Successfull", "Your Data Successfully Received", "success");
+                   }
+                   else{
+
+                       swal("Something Wrong", "Your Data is not Received", "error");
+                    }
+                }
+            );
+}
