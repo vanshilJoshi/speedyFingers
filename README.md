@@ -10,12 +10,12 @@ SpeedyFingers is a sleek and user-friendly web application designed to help user
 -**User-Friendly Interface:** With a clean and intuitive UI, SpeedyFingers makes it easy for users of all levels to jump right in and start typing.
 
 ### Technologies Used: 
--HTML 
--CSS 
--JavaScript 
--Bootstrap 
--SMTP.js 
--SweetAlert 
+- HTML
+- CSS 
+- JavaScript 
+- Bootstrap 
+- SMTP.js 
+- SweetAlert 
 
 ### How to Use:
 1.**Clone Repository:** Clone this repository to your local machine using git clone.
