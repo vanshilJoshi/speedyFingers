@@ -18,10 +18,10 @@ SpeedyFingers is a sleek and user-friendly web application designed to help user
 - SweetAlert 
 
 ### How to Use:
-1.**Clone Repository:** Clone this repository to your local machine using git clone.
-2.**Open Index.html:** Navigate to the project directory and open index.html in your preferred web browser.
-3.**Start Typing:** Click or tap on text box, then begin typing the provided text passages.
-4.**Receive Feedback:** Receive real-time feedback on your typing speed and accuracy. Use this feedback to track your progress and strive for improvement.
+1. **Clone Repository:** Clone this repository to your local machine using git clone. 
+2. **Open Index.html:** Navigate to the project directory and open index.html in your preferred web browser. 
+3. **Start Typing:** Click or tap on text box, then begin typing the provided text passages. 
+4. **Receive Feedback:** Receive real-time feedback on your typing speed and accuracy. Use this feedback to track your progress and strive for improvement. 
 
 ### Contributions:
 Contributions to SpeedyFingers are welcome! Whether you're interested in fixing bugs, adding new features, or improving documentation, your contributions are greatly appreciated. Please fork this repository, make your changes, and submit a pull request.
