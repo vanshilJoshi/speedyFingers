@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Test - Check Your Typing Speed In 60 Seconds</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="v-icon" href="Assest/Icon-img.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -18,10 +19,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#faq-container">FAQ</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Contact</a>
-        <a class="nav-link disabled" aria-disabled="true">By Vanshil</a>
+        <a class="nav-link active" aria-current="page" href="https://vanshiljoshi.github.io/Portfolio/">About Dev</a>
+        <a class="nav-link" href="#faq-container">FAQ</a>
+        <a class="nav-link" href="#contact-form">Contact</a>
       </div>
     </div>
   </div>
@@ -148,7 +148,39 @@
   </div>
 </section>
 
+<div class="contact-form" id="contact-form">
+
+<div class="contact-text">
+  <h1>Get in touch</h1>
+  <img src="Assest/contactimg.svg" alt="">
+</div>
+
+<div class="contact">
+  <form action="">
+
+      <label for="Name">Name</label>
+      <input type="text" id="Name" placeholder="Enter Your Name....">
+
+      <label for="Email">Email</label>
+      <input type="text" id="Email" placeholder="Enter Your Email...">
+
+      <label for="Contact">Contact Number</label>
+      <input type="text" id="Contact" placeholder="Enter Your Contact number...">
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" placeholder="Enter Your Subject...">
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" placeholder="Enter Your Message" style="height: 150px;"></textarea>
+      <input type="button" value="Submit" class="button" onclick="Send()">
+  </form>
+</div>
+</div>
+<p class="copyright-msg">&copy; 2023 VANSHIL JOSHI</p>
+
 <script src="paragraphs.js"></script>
 <script src="app.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
