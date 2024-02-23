@@ -195,21 +195,17 @@ p {
     font-size: 23px;
     margin-top: 1rem;
     font-weight: 900;
+    padding-left: 10px;
     display: block;
     max-height: 16rem;
     max-width: auto;
     color: #DBE2EF;
 }
 
-.input {
-    position: relative;
-}
-
 .faq-container {
     padding-top: 10rem;
     padding-bottom: 10rem;
     margin: 0 auto;
-    margin-bottom: 20px;
     padding: 0 20px;
     background-color: #DBE2EF;
 }
@@ -258,4 +254,109 @@ section {
     .faq-columns {
         grid-template-columns: repeat(3,1fr);
     }
+}
+
+.contact-form {
+    display: flex;
+    font-family: Montserrat;
+    background-color: #DBE2EF;
+}
+
+.contact{
+    border-radius: 5px;
+    background-color: #DBE2EF;  
+    padding: 20px;
+    height: 650px;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 3rem 5rem 5rem 5rem;
+    border: 2px solid #DBE2EF;
+    box-shadow:  0 9px 24px rgba(0,0,0,.12), 0 9px 24px rgba(0,0,0,.12);
+  }
+
+  input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #112D4E;
+    background-color: #DBE2EF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+label {
+    font-size: larger;
+    font-weight: 700;
+}  
+
+ input[type=button]{
+  background-color: #112D4E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+ input[type=button]:hover{
+  background-color: #3F72AF;
+ }
+
+ .contact-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+ }
+
+ .contact-text h1{
+    font-size: 4rem;
+ }
+
+ .contact-text img {
+    width: 27rem;
+    height: 27rem;
+ }
+
+.copyright-msg {
+    background-color: #112D4E;
+    margin-bottom: 0;
+}
+
+@media(max-width:960px){
+        .text-p1 {
+            font-size: 30px;
+        }
+
+        .container {
+            display: block;
+        }
+        
+        .box1{
+            margin-top: 0;
+            display: flex;
+            margin-bottom: 1rem;
+            margin-right: 0;
+            justify-content: center;
+        }
+
+        .contact-form {
+            display: block;
+        }
+
+        .contact {
+            margin: 0;
+        }
+
+        .contact-text img {
+            width: 15rem;
+            height: 15rem;
+        }
 }
