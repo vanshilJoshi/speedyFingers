@@ -1,6 +1,6 @@
 ## SpeedyFingers Typing Speed Test
 
-###Overview:
+### Overview:
 SpeedyFingers is a sleek and user-friendly web application designed to help users assess and improve their typing speed. Whether you're a professional looking to boost productivity or a beginner honing your keyboard skills, SpeedyFingers offers a convenient platform to practice and track your progress.
 
 ### Features:
